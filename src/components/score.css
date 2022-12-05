@@ -1,0 +1,29 @@
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #fff;
+}
+.score h2 {
+    font-size: 60px;
+}
+.score span {
+    font-size: 150px;
+    padding: 0 10px;
+}
+
+.score-box {
+    display: flex;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .score h2 {
+        font-size: 9vw;
+    }
+    .score span {
+        font-size: 15vw;
+    }
+  }
